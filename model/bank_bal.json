@@ -1,0 +1,8 @@
+[
+	{ "Bank": "BK01-INR", "Amttype": "Bal",  "Amount":  100000 },
+                { "Bank": "BK01-INR",  "Amttype": "Req",  "Amount":  80000 },
+                { "Bank": "BK02-USD", "Amttype": "Bal",  "Amount": 20000},
+                { "Bank": "BK02-USD",  "Amttype": "Req",  "Amount":  25000 },
+                { "Bank": "BK03-EUR", "Amttype": "Bal",  "Amount":  8000 },
+                { "Bank": "BK03-EUR",  "Amttype": "Req",  "Amount":  1000 }
+	]	

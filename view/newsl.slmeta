@@ -1,0 +1,83 @@
+{
+	"TransitionEffect": "pulldown",
+	"Content": [
+		{
+			"Type": "ListView",
+			"StyleClass": "",
+			"ID": "newsl",
+			"DataTable": {
+				"Content": [
+					{
+						"Name": "client",
+						"DataType": "string",
+						"Path": "/client",
+						"Type": "Column"
+					},
+					{
+						"Name": "UserID",
+						"DataType": "string",
+						"Path": "/UserID",
+						"Type": "Column"
+					},
+					{
+						"Name": "Password",
+						"DataType": "string",
+						"Path": "/Password",
+						"Type": "Column"
+					},
+					{
+						"Name": "UserName",
+						"DataType": "string",
+						"Path": "/UserName",
+						"Type": "Column"
+					},
+					{
+						"Name": "CountryCode",
+						"DataType": "string",
+						"Path": "/CountryCode",
+						"Type": "Column"
+					},
+					{
+						"Name": "CountryName",
+						"DataType": "string",
+						"Path": "/CountryName",
+						"Type": "Column"
+					},
+					{
+						"Name": "Message",
+						"DataType": "string",
+						"Path": "/Message",
+						"Type": "Column"
+					}
+				],
+				"Url": "odataquery.validatepwd",
+				"SourceType": "OData",
+				"navigationParameters": ""
+			},
+			"DetailBand": {
+				"StyleClass": "",
+				"Alignment": "Vertical",
+				"Content": [
+					{
+						"Type": "Panel",
+						"StyleClass": "",
+						"ID": "Panel1",
+						"Alignment": "Horizontal",
+						"Content": [
+							{
+								"Type": "Label",
+								"Text": "UserID + ' -  ' + Message",
+								"StyleClass": "",
+								"ID": "usermsg"
+							}
+						]
+					}
+				]
+			},
+			"SummaryBand": {
+				"StyleClass": "",
+				"Alignment": "Vertical"
+			}
+		}
+	]
+}

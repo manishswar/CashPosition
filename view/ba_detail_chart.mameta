@@ -1,0 +1,6 @@
+<Chart Name="ba_detail" ChartType="column" Query="file.ap_inr_detail|" Title="" Scattered="false">
+	<Category Column="CUR" Format="" SortOrder="None"/>
+	<Values>
+		<Value Expression="NetPayable" Format=""/>
+	</Values>
+</Chart>

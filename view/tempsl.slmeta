@@ -1,0 +1,67 @@
+{
+	"TransitionEffect": "pulldown",
+	"Content": [
+		{
+			"Type": "ListView",
+			"StyleClass": "",
+			"ID": "tempsl",
+			"DataTable": {
+				"Content": [
+					{
+						"Name": "client",
+						"DataType": "string",
+						"Path": "/client",
+						"Type": "Column"
+					},
+					{
+						"Name": "BusArea",
+						"DataType": "string",
+						"Path": "/BusArea",
+						"Type": "Column"
+					},
+					{
+						"Name": "BADesc",
+						"DataType": "string",
+						"Path": "/BADesc",
+						"Type": "Column"
+					}
+				],
+				"Url": "odataquery.BA_list",
+				"SourceType": "OData",
+				"navigationParameters": ""
+			},
+			"DetailBand": {
+				"StyleClass": "",
+				"Alignment": "Vertical",
+				"Content": [
+					{
+						"Type": "Panel",
+						"StyleClass": "",
+						"ID": "Panel1",
+						"Alignment": "Horizontal",
+						"Content": [
+							{
+								"Type": "CheckBox",
+								"Text": "Y/N",
+								"StyleClass": "",
+								"Value": "",
+								"ID": "CheckBox1"
+							},
+							{
+								"Type": "Input",
+								"Value": "BusArea + '-'+BADesc",
+								"PlaceHolder": "",
+								"StyleClass": "",
+								"ID": "Input1"
+							}
+						]
+					}
+				]
+			},
+			"SummaryBand": {
+				"StyleClass": "",
+				"Alignment": "Vertical"
+			}
+		}
+	]
+}

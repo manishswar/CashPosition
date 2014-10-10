@@ -1,0 +1,12 @@
+[{"Currency":"USD","Denomination":"CUR","TotalAmt":12000.00},
+{"Currency":"USD","Denomination":"USD","TotalAmt":12000.00},
+{"Currency":"EUR","Denomination":"CUR","TotalAmt":15000.00},
+{"Currency":"EUR","Denomination":"USD","TotalAmt":17000.00},
+{"Currency":"INR","Denomination":"CUR","TotalAmt":42000.00},
+{"Currency":"INR","Denomination":"USD","TotalAmt":7000.00},
+{"Currency":"CNY","Denomination":"CUR","TotalAmt":8000.00},
+{"Currency":"CNY","Denomination":"USD","TotalAmt":4000.00},
+{"Currency":"JPY","Denomination":"CUR","TotalAmt":15000.00},
+{"Currency":"JPY","Denomination":"USD","TotalAmt":10000.00},
+{"Currency":"Other","Denomination":"CUR","TotalAmt":0.00},
+{"Currency":"Other","Denomination":"USD","TotalAmt":9000.00}]

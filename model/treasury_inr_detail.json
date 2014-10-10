@@ -1,0 +1,6 @@
+[
+	{ "CUR": "INR",  "NetPayable":  100000 },
+	{ "CUR": "USD",  "NetPayable":  50000 },
+	{ "CUR": "EUR",  "NetPayable":  10000 }
+
+	]	

@@ -1,0 +1,135 @@
+<template data-controller-name="view.newpayslip" data-height="" data-view-name="">
+	<div data-sap-ui-type="sap.m.Page" data-title="newpayslip" data-nav-button-text="Back" data-icon="" data-show-footer="false" id="newpayslip">
+		<div data-sap-ui-aggregation="customData">
+			<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22%22%7D">
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Input" data-value="" data-width="168px" data-name="" data-placeholder="Your Index No" data-value-state-text="" id="Input1">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22overflow%3Ahidden%3Bwidth%3A168px%3Bposition%3Aabsolute%3Bleft%3A46px%3Btop%3A35px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Select" data-name="" data-width="84px" data-title="" data-selected-key="2" data-selected-item-id="__item37" id="syear" data-change="yearselect">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22position%3Aabsolute%3Bleft%3A46px%3Btop%3A79px%3Bz-index%3A10%3Bwidth%3A84px%3Bheight%3A44px%3B%22%7D">
+				</div>
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="2014" data-key="1" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="2013" data-key="2" id="">
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Select" data-name="" data-width="75px" data-title="" data-selected-key="5" data-selected-item-id="__item28" id="smonth" data-change="monthselect">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22position%3Aabsolute%3Bleft%3A138px%3Btop%3A79px%3Bz-index%3A10%3Bwidth%3A75px%3B%22%7D">
+				</div>
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="January" data-key="1" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="Ferbruary" data-key="2" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="March" data-key="3" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="April" data-key="4" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="May" data-key="5" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="June" data-key="6" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="July" data-key="7" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="August" data-key="8" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="September" data-key="9" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="October" data-key="10" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="November" data-key="11" id="">
+			</div>
+			<div data-sap-ui-type="sap.ui.core.Item" data-text="December" data-key="12" id="">
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.BusyIndicator" data-text="" data-custom-icon="" data-size="" id="busyind">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22overflow%3Ahidden%3Bposition%3Aabsolute%3Bleft%3A152px%3Btop%3A198px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Button" data-text="GeneratePAYSLIP" data-width="" data-icon="" data-active-icon="" id="genps" data-press="genpspressed">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22position%3Aabsolute%3Bleft%3A-4px%3Btop%3A193px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Label" data-text="" id="psmsg">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22left%3A9px%3Btop%3A245px%3Bcolor%3A%23ff241c%3Bmin-width%3A16px%3Bmin-height%3A16px%3Bposition%3Aabsolute%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.ui.core.HTML" data-content="<div style='overflow:hidden'><div class='content'><h4>Your payslip links</h4></div>
+<a href=&quot;
+http://127.0.0.1:9009/ide/hermes/filesystem/root/guest/FI_UNICEF_Cash_Position/src/res/payslipxxx.html&quot; target=&quot;_blank&quot;>HTML Pages   </a>
+<br>    
+<br>
+<a href=&quot;
+http://127.0.0.1:9009/ide/hermes/filesystem/root/guest/FI_UNICEF_Cash_Position/src/res/payslip.pdf&quot; target=&quot;_blank&quot;>Open PDF file</a>
+
+
+</div>" id="HTML1">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22position%3Aabsolute%3Bleft%3A25px%3Btop%3A265px%3Bz-index%3A10%3Bheight%3A142px%3Bwidth%3A271px%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Switch" data-state="true" data-custom-text-on="" data-custom-text-off="" data-name="" id="sapconnection" data-change="sapconswitch">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22overflow%3Ahidden%3Bposition%3Aabsolute%3Bleft%3A220px%3Btop%3A3px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.RadioButton" data-group-name="delv_rb_grp" data-text="Via e-mail" id="rb_email" data-select="delv_reb_selected">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22overflow%3Ahidden%3Bposition%3Aabsolute%3Bleft%3A86px%3Btop%3A144px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.RadioButton" data-selected="true" data-group-name="delv_rb_grp" data-text="Online" id="rb_browser" data-select="delv_reb_selected">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22overflow%3Ahidden%3Bposition%3Aabsolute%3Bleft%3A4px%3Btop%3A145px%3Bz-index%3A10%3B%22%7D">
+				</div>
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="classes" data-value="">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Label" data-text="Result Delivery :" id="Label2">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22left%3A0px%3Btop%3A134px%3Bheight%3A24px%3Bcolor%3Ablue%3Bmin-width%3A16px%3Bmin-height%3A16px%3Bposition%3Aabsolute%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Label" data-text="SAP Connection:" id="Label3">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22left%3A106px%3Btop%3A15px%3Bheight%3A22px%3Bcolor%3Ablue%3Bmin-width%3A16px%3Bmin-height%3A16px%3Bposition%3Aabsolute%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.RadioButton" data-group-name="delv_rb_grp" data-text="Via SMS" id="RadioButton3" data-select="delv_reb_selected">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22overflow%3Ahidden%3Bposition%3Aabsolute%3Bleft%3A196px%3Btop%3A145px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Button" data-text="Doc Approval" data-width="" data-icon="" data-active-icon="" id="docappbut" data-press="docapprovalpress">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22position%3Aabsolute%3Bleft%3A184px%3Btop%3A198px%3Bz-index%3A10%3Bheight%3A42px%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-aggregation="footer">
+			<div data-sap-ui-type="sap.m.Bar" id="footerBar">
+			</div>
+		</div>
+	</div>
+</template>

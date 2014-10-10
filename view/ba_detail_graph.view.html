@@ -1,0 +1,50 @@
+<template data-controller-name="view.ba_detail_graph" data-height="" data-view-name="">
+	<div data-sap-ui-type="sap.m.Page" data-title="Payables Per Country" data-nav-button-text="Back" data-enable-scrolling="false" data-icon="" data-show-footer="false" id="ba_detail_graph">
+		<div data-sap-ui-aggregation="customData">
+			<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22%22%7D">
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.SegmentedButton" data-width="315px" id="SegmentedButton1" data-select="segbuttonpress">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22overflow%3Ahidden%3Bposition%3Aabsolute%3Bleft%3A6px%3Btop%3A345px%3Bz-index%3A10%3Bwidth%3A315px%3B%22%7D">
+				</div>
+			</div>
+			<div data-sap-ui-type="sap.m.Button" data-text="AP" data-width="" data-icon="" data-active-icon="" id="ap_button">
+			</div>
+			<div data-sap-ui-type="sap.m.Button" data-text="Treasury" data-width="" data-icon="" data-active-icon="" id="treasury_button">
+				<div data-sap-ui-aggregation="customData">
+					<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22%22%7D">
+					</div>
+				</div>
+			</div>
+			<div data-sap-ui-type="sap.m.Button" data-text="Payroll" data-width="" data-icon="" data-active-icon="" id="payroll_button">
+				<div data-sap-ui-aggregation="customData">
+					<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22%22%7D">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.apb.makit.Chart" data-height="300px" data-metadata-file="view/ba_detail_chart.mameta" data-width="300px" id="ba_detail_chart">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22width%3A300px%3Bheight%3A300px%3Boverflow%3Ahidden%3Bposition%3Aabsolute%3Bleft%3A10px%3Btop%3A45px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Label" data-text="Net Accounts Payables" data-width="176px" id="payhead">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22left%3A10px%3Btop%3A12px%3Bheight%3A18px%3Bwidth%3A176px%3Bcolor%3A%23ff8269%3Bmin-width%3A16px%3Bmin-height%3A16px%3Bposition%3Aabsolute%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Button" data-text="BankBalances" data-width="129px" data-icon="" data-active-icon="" id="bankdetail" data-press="bb_button_pressed">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22height%3A45px%3Bwidth%3A129px%3Bposition%3Aabsolute%3Bleft%3A186px%3Btop%3A0px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-aggregation="footer">
+			<div data-sap-ui-type="sap.m.Bar" id="footerBar">
+			</div>
+		</div>
+	</div>
+</template>

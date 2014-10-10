@@ -1,0 +1,7 @@
+<Chart Name="bankbalchart" ChartType="column" Query="file.bank_bal|" Title="" Scattered="false">
+	<Category Column="Bank" Format="" SortOrder="None"/>
+	<Series Column="Amttype" Format=""/>
+	<Values>
+		<Value Expression="Amount" Format=""/>
+	</Values>
+</Chart>

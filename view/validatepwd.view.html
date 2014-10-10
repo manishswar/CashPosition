@@ -1,0 +1,42 @@
+<template data-controller-name="view.validatepwd" data-height="" data-view-name="">
+	<div data-sap-ui-type="sap.m.Page" data-title="validatepwd" data-nav-button-text="Back" data-icon="" data-show-footer="false" id="validatepwd">
+		<div data-sap-ui-aggregation="customData">
+			<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22%22%7D">
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Text" data-text="Password validation using SAP web service...." data-text-align="Center" data-width="326px" data-max-lines="0" id="pwdresult">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22overflow%3Ahidden%3Bwidth%3A326px%3Bheight%3A32px%3Bposition%3Aabsolute%3Bleft%3A-9px%3Btop%3A31px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Button" data-text="Continue" data-width="" data-icon="" data-active-icon="" id="pwdbutton" data-press="pwdbutpressed">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22position%3Aabsolute%3Bleft%3A25px%3Btop%3A375px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.apb.SuperList" data-data-source="%7B%26quot%3BContent%26quot%3B%3A%5B%7B%26quot%3BID%26quot%3B%3A%26quot%3Bvalidatepwd%26quot%3B%2C%26quot%3BDataTable%26quot%3B%3A%7B%26quot%3BUrl%26quot%3B%3A%26quot%3Bodataquery.validatepwd%26quot%3B%2C%26quot%3BSourceType%26quot%3B%3A%26quot%3BOData%26quot%3B%2C%26quot%3BnavigationParameters%26quot%3B%3A%26quot%3B%26quot%3B%2C%26quot%3BContent%26quot%3B%3A%5B%7B%26quot%3BName%26quot%3B%3A%26quot%3BUserID%26quot%3B%2C%26quot%3BDataType%26quot%3B%3A%26quot%3Bstring%26quot%3B%2C%26quot%3BPath%26quot%3B%3A%26quot%3B/UserID%26quot%3B%2C%26quot%3BType%26quot%3B%3A%26quot%3BColumn%26quot%3B%7D%2C%7B%26quot%3BName%26quot%3B%3A%26quot%3BUserName%26quot%3B%2C%26quot%3BDataType%26quot%3B%3A%26quot%3Bstring%26quot%3B%2C%26quot%3BPath%26quot%3B%3A%26quot%3B/UserName%26quot%3B%2C%26quot%3BType%26quot%3B%3A%26quot%3BColumn%26quot%3B%7D%2C%7B%26quot%3BName%26quot%3B%3A%26quot%3BCountryCode%26quot%3B%2C%26quot%3BDataType%26quot%3B%3A%26quot%3Bstring%26quot%3B%2C%26quot%3BPath%26quot%3B%3A%26quot%3B/CountryCode%26quot%3B%2C%26quot%3BType%26quot%3B%3A%26quot%3BColumn%26quot%3B%7D%2C%7B%26quot%3BName%26quot%3B%3A%26quot%3BCountryName%26quot%3B%2C%26quot%3BDataType%26quot%3B%3A%26quot%3Bstring%26quot%3B%2C%26quot%3BPath%26quot%3B%3A%26quot%3B/CountryName%26quot%3B%2C%26quot%3BType%26quot%3B%3A%26quot%3BColumn%26quot%3B%7D%2C%7B%26quot%3BName%26quot%3B%3A%26quot%3BMessage%26quot%3B%2C%26quot%3BDataType%26quot%3B%3A%26quot%3Bstring%26quot%3B%2C%26quot%3BPath%26quot%3B%3A%26quot%3B/Message%26quot%3B%2C%26quot%3BType%26quot%3B%3A%26quot%3BColumn%26quot%3B%7D%5D%7D%7D%5D%7D" data-height="67px" data-metadata-file="view/validatepwd.slmeta" data-width="294px" data-read-rows="1" id="userlist">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22width%3A294px%3Bheight%3A67px%3Boverflow%3Ahidden%3Bposition%3Aabsolute%3Bleft%3A13px%3Btop%3A95px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.TextArea" data-value="Test text area" data-width="100%" data-name="" data-placeholder="" data-height="100%" data-wrapping="Soft" id="mytext">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22position%3Aabsolute%3Bleft%3A4px%3Btop%3A174px%3Bz-index%3A10%3Bheight%3A178px%3Bwidth%3A302px%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-type="sap.m.Button" data-text="changedatasrc" data-width="" data-icon="" data-active-icon="" id="changeds" data-press="changedspress">
+			<div data-sap-ui-aggregation="customData">
+				<div data-sap-ui-type="sap.ui.core.CustomData" data-key="style" data-value="%7B%22landscape%22%3A%22position%3Aabsolute%3Bleft%3A165px%3Btop%3A375px%3Bz-index%3A10%3B%22%7D">
+				</div>
+			</div>
+		</div>
+		<div data-sap-ui-aggregation="footer">
+			<div data-sap-ui-type="sap.m.Bar" id="footerBar">
+			</div>
+		</div>
+	</div>
+</template>

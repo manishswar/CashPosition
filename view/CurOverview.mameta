@@ -1,0 +1,7 @@
+<Chart Name="CurOverview" ChartType="column" Query="file.CurSummary|" Title="" Scattered="false">
+	<Category Column="Currency" Format="" SortOrder="None"/>
+	<Series Column="Denomination" Format=""/>
+	<Values>
+		<Value Expression="TotalAmt" Format=""/>
+	</Values>
+</Chart>
